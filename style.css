@@ -1,0 +1,43 @@
+.link 
+{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+}
+.link:hover{
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    font: white;
+}
+
+.btn-info, p, h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: aliceblue;
+}
+h2{
+    color: #3affa3;
+}
+
+body{
+    background: #E55D87;
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);
+background: linear-gradient(to right, #5FC3E4, #E55D87);
+/* these gradients are taken from google */
+}
+
+#back{
+    float: left;
+}
+
